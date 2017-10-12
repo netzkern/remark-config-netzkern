@@ -1,0 +1,25 @@
+{
+    "name": "remark-config-netzkern",
+    "version": "0.0.0",
+    "description": "This package provides netzkern .remarkrc as an extensible shared config.",
+    "main": "index.js",
+    "scripts": {
+        "lint-md": "remark ."
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/netzkern/remark-config-netzkern.git"
+    },
+    "author": "Dustin Deus (https://twitter.com/@dustindeus)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/netzkern/remark-config-netzkern/issues"
+    },
+    "homepage": "https://github.com/netzkern/remark-config-netzkern#readme",
+    "dependencies": {
+        "remark": "^8.0.0",
+        "remark-lint": "^6.0.1",
+        "remark-preset-lint-consistent": "^2.0.1",
+        "remark-preset-lint-recommended": "^3.0.1"
+    }
+}
